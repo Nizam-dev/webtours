@@ -83,7 +83,7 @@ class HomeController extends Controller
                 $url = $data;
                 $info = pathinfo($url);
                 $dataimg = file_get_contents($url);
-                $image_name= "/images/content/" .'wisata-bali-tours-'. time().$item.'.png';
+                $image_name= "/images/content/" .'wisata-bali-tours-'. time().'.png';
                 $path = public_path() . $image_name;
                 file_put_contents($path, $dataimg);
                 $image->removeAttribute('src');
