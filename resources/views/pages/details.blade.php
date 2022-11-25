@@ -5,14 +5,14 @@
 
 <!-- Open Graph / Facebook -->
 <meta property="og:type" content="website">
-<meta property="og:url" content="https://driverbalitour.com/">
+<meta property="og:url" content="{{url('details/'.str_replace(' ', '-', $post->judul).'/'.$post->id)}}">
 <meta property="og:title" content="Driver Bali Tour - {{$post->judul}}">
 <meta property="og:description" content="Driver Bali tour , menyediakan paket promo wisata hotel jalan-jalan untuk pribadi, keluarga , organisasi dan perusahaan">
 <meta property="og:image" content="{{asset('public/images/thumnail/'.$post->thumnail)}}">
 
 <!-- Twitter -->
 <meta property="twitter:card" content="summary_large_image">
-<meta property="twitter:url" content="https://driverbalitour.com/">
+<meta property="twitter:url" content="{{url('details/'.str_replace(' ', '-', $post->judul).'/'.$post->id)}}">
 <meta property="twitter:title" content="Driver Bali Tour - {{$post->judul}}">
 <meta property="twitter:description" content="Driver Bali tour , menyediakan paket promo wisata hotel jalan-jalan untuk pribadi, keluarga , organisasi dan perusahaan">
 <meta property="twitter:image" content="{{asset('public/images/thumnail/'.$post->thumnail)}}">
@@ -78,7 +78,7 @@
                 @php($url = url('details/'.str_replace(' ', '-', $post->judul).'/'.$post->id)) 
                 @php($pesan = "_Halo Driver Bali Tour_%0aSaya ingin memesan *".$post->judul."*%0a%0a")
 
-                <a href="https://api.whatsapp.com/send?phone=6283853958171&text={{$pesan}}_{{$url}}_%0a" class="float-right btn btn-success"> <i class="fa-brands fa-whatsapp"></i> Pesan Sekarang</a>
+                <a href="https://api.whatsapp.com/send?phone={{$sosial_media->whatsapp}}&text={{$pesan}}_{{$url}}_%0a" class="float-right btn btn-success"> <i class="fa-brands fa-whatsapp"></i> Pesan Sekarang</a>
             </div>
         </div>
     </div>
@@ -120,7 +120,7 @@
                     <div class="block-21 mb-4 d-flex">
                         <a class="blog-img mr-4" style="background-image: url({{asset('public/images/thumnail/'.$last->thumnail)}});"></a>
                         <div class="text">
-                            <h3 class="heading"><a href="{{url('details/'.$last->judul.'/'.$last->id)}}">{{$last->judul}}</a></h3>
+                            <h3 class="heading"><a href="{{url('details/'.str_replace(' ', '-', $last->judul).'/'.$last->id)}}">{{$last->judul}}</a></h3>
                             <div class="meta">
                                 <div><a href="{{url('details/'.$last->judul.'/'.$last->id)}}"><span class="icon-calendar"></span> {{$last->waktu}}</a></div>
                                 <div><a href="{{url('details/'.$last->judul.'/'.$last->id)}}"><span  class="fa-solid fa-tag"></i></span> {{$last->price}}</a></div>

@@ -48,34 +48,35 @@
                         <span class="icon-map-signs"></span>
                     </div>
                     <h3 class="mb-2">Address</h3>
-                    <p>198 West 21th Street, Suite 721 New York NY 10016</p>
+                    <p>Bali, Indonesia</p>
                 </div>
             </div>
             <div class="col-md-3 d-flex">
                 <div class="align-self-stretch box p-4 text-center">
                     <div class="icon d-flex align-items-center justify-content-center">
-                        <span class="icon-phone2"></span>
+                        <span class="fab fa-whatsapp"></span>
                     </div>
-                    <h3 class="mb-2">Contact Number</h3>
-                    <p><a href="tel://1234567920">+ 1235 2355 98</a></p>
+                    <h3 class="mb-2">WhatsApp</h3>
+                    <p><a href="https://wa.me/{{$sosial_media->whatsapp}}">{{$sosial_media->whatsapp}}</a></p>
                 </div>
             </div>
             <div class="col-md-3 d-flex">
                 <div class="align-self-stretch box p-4 text-center">
                     <div class="icon d-flex align-items-center justify-content-center">
-                        <span class="icon-paper-plane"></span>
+                        <span class="fab fa-facebook"></span>
                     </div>
-                    <h3 class="mb-2">Email Address</h3>
-                    <p><a href="mailto:info@yoursite.com">info@yoursite.com</a></p>
+                    <h3 class="mb-2">Facebook</h3>
+                    <p><a href="{{$sosial_media->facebook}}"></a>Driver Bali Tour</p>
                 </div>
             </div>
+           
             <div class="col-md-3 d-flex">
                 <div class="align-self-stretch box p-4 text-center">
                     <div class="icon d-flex align-items-center justify-content-center">
-                        <span class="icon-globe"></span>
+                        <span class="fab fa-instagram"></span>
                     </div>
-                    <h3 class="mb-2">Website</h3>
-                    <p><a href="#">yoursite.com</a></p>
+                    <h3 class="mb-2">Instagram</h3>
+                    <p><a href="https://www.instagram.com/{{$sosial_media->instagram}}">{{'@'.$sosial_media->instagram}}</a></p>
                 </div>
             </div>
         </div>
@@ -84,12 +85,12 @@
 
 <section class="ftco-section contact-section">
     <div class="container">
-        
 
-            <div class="col-md-12 d-flex">
-                <div id="map" class="bg-white"></div>
-            </div>
+
+        <div class="col-md-12 d-flex">
+            <div id="map" class="bg-white"></div>
         </div>
+    </div>
     </div>
 </section>
 
