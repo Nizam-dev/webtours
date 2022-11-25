@@ -84,7 +84,7 @@
                     <div class="ftco-footer-widget mb-4 ml-md-5">
                         <h2 class="ftco-heading-2">Infromation</h2>
                         <ul class="list-unstyled">
-                            <li><a href="#" class="py-2 d-block">Privacy and Policy</a></li>
+                            <li><a href="{{url('/privacy-policy')}}" class="py-2 d-block">Privacy and Policy</a></li>
                             <li><a href="#" class="py-2 d-block">Disclaimer</a></li>
                         </ul>
                     </div>

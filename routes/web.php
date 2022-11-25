@@ -19,6 +19,7 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/',[App\Http\Controllers\LandingPageController::class,'index']);
 Route::get('about',[App\Http\Controllers\AboutController::class,'about']);
+Route::get('privacy-policy',[App\Http\Controllers\AboutController::class,'privacy_policy']);
 Route::get('contact-us',[App\Http\Controllers\AboutController::class,'contact']);
 Route::get('details/{judul}/{id}',[App\Http\Controllers\LandingPageController::class,'show']);
 
