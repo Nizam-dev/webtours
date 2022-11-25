@@ -77,7 +77,7 @@ class HomeController extends Controller
             file_put_contents($path, $imgeData);
             
             $image->removeAttribute('src');
-            $image->setAttribute('src', url('/').$path);
+            $image->setAttribute('src', url('/public/').$image_name);
 
            }else{
                 $url = $data;
@@ -88,8 +88,8 @@ class HomeController extends Controller
                 file_put_contents($path, $dataimg);
                 $image->removeAttribute('src');
                 $image->removeAttribute('srcset');
-                $image->setAttribute('src', url('/').$path);
-                $image->setAttribute('srcset', url('/').$path);
+                $image->setAttribute('src', url('/public/').$image_name);
+                $image->setAttribute('srcset', url('/public/').$image_name);
            }
         }
 
@@ -140,7 +140,7 @@ class HomeController extends Controller
             file_put_contents($path, $imgeData);
             
             $image->removeAttribute('src');
-            $image->setAttribute('src', url('/').$path);
+            $image->setAttribute('src', url('/public/').$image_name);
 
            }
         }
