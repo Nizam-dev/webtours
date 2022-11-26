@@ -76,7 +76,7 @@
                 </div>
 
                 @php($url = url('details/'.str_replace(' ', '-', $post->judul).'/'.$post->id)) 
-                @php($pesan = "_Halo Driver Bali Tour_%0aSaya ingin memesan *".$post->judul."*%0a%0a")
+                @php($pesan = "_Halo Driver Bali Tour_%0aSaya nak pesan *".$post->judul."*%0a%0a")
 
                 <a href="https://api.whatsapp.com/send?phone={{$sosial_media->whatsapp}}&text={{$pesan}}_{{$url}}_%0a" class="float-right btn btn-success"> <i class="fa-brands fa-whatsapp"></i> Pesan Sekarang</a>
             </div>
