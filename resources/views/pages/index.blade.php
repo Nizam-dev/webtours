@@ -177,7 +177,7 @@
 
 
 
-<section class="ftco-section" style="background-image : url({{asset('public/vacation-master/images/bg_3.jpg')}})">
+<!-- <section class="ftco-section" style="background-image : url({{asset('public/vacation-master/images/bg_3.jpg')}})">
     <div class="container">
         <div class="row justify-content-center pb-4">
             <div class="col-md-12 heading-section text-center ftco-animate">
@@ -208,6 +208,6 @@
 
         </div>
     </div>
-</section>
+</section> -->
 
 @endsection
