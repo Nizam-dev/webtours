@@ -93,8 +93,8 @@
                     <div class="ftco-footer-widget mb-4">
                         <h2 class="ftco-heading-2">Experience</h2>
                         <ul class="list-unstyled">
-                            <li><a href="#" class="py-2 d-block">Paket Wisata</a></li>
-                            <li><a href="#" class="py-2 d-block">Paket Honeymoon</a></li>
+                            <li><a href="#" class="py-2 d-block">Pakej Wisata</a></li>
+                            <li><a href="#" class="py-2 d-block">Pakej Honeymoon</a></li>
                             <li><a href="#" class="py-2 d-block">Hotel and Restaurant</a></li>
                             <li><a href="#" class="py-2 d-block">Private Transport</a></li>
                         </ul>

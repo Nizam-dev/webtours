@@ -1,23 +1,23 @@
 @extends('pages.template.master')
 @push('meta_tags')
-<meta name="title" content="Driver Bali Tour - Paket Wisata Bali">
+<meta name="title" content="Driver Bali Tour - Pakej Wisata Bali">
 <meta name="description"
-    content="Driver Bali tour , menyediakan paket promo wisata hotel jalan-jalan untuk pribadi, keluarga , organisasi dan perusahaan">
+    content="Driver Bali tour , menyediakan pakej promosi pelancongan hotel untuk individu, keluarga, organisasi dan syarikat">
 
 <!-- Open Graph / Facebook -->
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://driverbalitour.com/">
-<meta property="og:title" content="Driver Bali Tour - Paket Wisata Bali">
+<meta property="og:title" content="Driver Bali Tour - Pakej Wisata Bali">
 <meta property="og:description"
-    content="Driver Bali tour , menyediakan paket promo wisata hotel jalan-jalan untuk pribadi, keluarga , organisasi dan perusahaan">
+    content="Driver Bali tour , menyediakan pakej promosi pelancongan hotel untuk individu, keluarga, organisasi dan syarikat">
 <meta property="og:image" content="{{asset('public/images/meta_bg.jpg')}}">
 
 <!-- Twitter -->
 <meta property="twitter:card" content="summary_large_image">
 <meta property="twitter:url" content="https://driverbalitour.com/">
-<meta property="twitter:title" content="Driver Bali Tour - Paket Wisata Bali">
+<meta property="twitter:title" content="Driver Bali Tour - Pakej Wisata Bali">
 <meta property="twitter:description"
-    content="Driver Bali tour , menyediakan paket promo wisata hotel jalan-jalan untuk pribadi, keluarga , organisasi dan perusahaan">
+    content="Driver Bali tour , menyediakan pakej promosi pelancongan hotel untuk individu, keluarga, organisasi dan syarikat">
 <meta property="twitter:image" content="{{asset('public/images/meta_bg.jpg')}}">
 @endpush
 @section('content')
@@ -96,13 +96,9 @@
     <div class="container">
         <div class="row d-flex">
             <div class="col-md-6 order-md-last heading-section pl-md-5 ftco-animate">
-                <h2 class="mb-4">Driver Bali Tour akan Memberikan Layanan Terbaik untuk Anda</h2>
-
-                <p>Driver Bali Tour menyediakan beberapa paket yang kami sesuaikan dengan kebutuhan Anda saat ini, Paket
-                    Honeymoon Bali dengan pilihan Hotel dan private Villa, Paket Tour Bali Plus Hotel, Paket Tour Bali
-                    Tanpa Hotel dan paket wisata lainnya. Fasilitas yang kami berikan transport Full AC, driver yang
-                    ramah dan berpengalaman, objek wisata yang menarik akan menambah kepuasan wisata Anda di Bali
-                    bersama kami.
+                <h2 class="mb-4">Driver Bali Tour Akan Memberikan Perkhidmatan yang Terbaik Untuk Anda</h2>
+                
+                <p>Driver Bali Tour Kami menyediakan beberapa pakej yang kami bersesuaian dengan keperluan semasa anda, Pakej Bali Honeymoon dengan pilihan hotel dan villa peribadi, Pakej Lawatan Hotel Bali Plus, Pakej Lawatan Bali Tanpa Hotel dan pakej pelancongan lain. Kemudahan yang kami sediakan adalah pengangkutan AC Penuh, pemandu yang mesra dan berpengalaman, objek pelancongan yang menarik yang akan menambahkan lagi kepuasan lawatan anda di Bali bersama kami.
                 </p>
             </div>
             <div class="col-md-6">
@@ -110,12 +106,12 @@
                     <div class="col-6 d-flex align-self-stretch ftco-animate">
                         <div class="media block-6 services d-block">
                             <div class="icon">
-
+                            
                                 <span class="fa-light fa-plane"></span>
-                            </div>
+                            </div> 
                             <div class="media-body">
                                 <h3 class="heading mb-3">TIKET FLIGHT</h3>
-                                <p>Kami menyediakan tiket pesawat untuk paket tambahan
+                                <p>Kami menyediakan tiket penerbangan untuk pakej tambahan
                                 </p>
                             </div>
                         </div>
@@ -127,7 +123,7 @@
                             </div>
                             <div class="media-body">
                                 <h3 class="heading mb-3">PERSONAL SHOPPING</h3>
-                                <p>Kami menyediakan personal shopping untuk paket tambahan
+                                <p>Kami menyediakan pembelian peribadi untuk pakej tambahan
                                 </p>
                             </div>
                         </div>
@@ -138,7 +134,7 @@
                                 <span class="flaticon-king-size"></span></div>
                             <div class="media-body">
                                 <h3 class="heading mb-3">HOTEL</h3>
-                                <p>Kami menyediakan paket include hotel
+                                <p>Kami menyediakan pakej termasuk hotel
                                 </p>
                             </div>
                         </div>
@@ -150,7 +146,7 @@
                             </div>
                             <div class="media-body">
                                 <h3 class="heading mb-3">PRIVATE TRANSPORT</h3>
-                                <p>Kami menyediakan paket include private transport
+                                <p>Kami menyediakan pakej termasuk pengangkutan peribadi
                                 </p>
                             </div>
                         </div>

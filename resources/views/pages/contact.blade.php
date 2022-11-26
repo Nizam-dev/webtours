@@ -1,23 +1,23 @@
 @extends('pages.template.master')
 @push('meta_tags')
-<meta name="title" content="Driver Bali Tour - Paket Wisata Bali">
+<meta name="title" content="Driver Bali Tour - Pakej Wisata Bali">
 <meta name="description"
-    content="Driver Bali tour , menyediakan paket promo wisata hotel jalan-jalan untuk pribadi, keluarga , organisasi dan perusahaan">
+    content="Driver Bali tour , menyediakan pakej promosi pelancongan hotel untuk individu, keluarga, organisasi dan syarikat">
 
 <!-- Open Graph / Facebook -->
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://driverbalitour.com/">
-<meta property="og:title" content="Driver Bali Tour - Paket Wisata Bali">
+<meta property="og:title" content="Driver Bali Tour - Pakej Wisata Bali">
 <meta property="og:description"
-    content="Driver Bali tour , menyediakan paket promo wisata hotel jalan-jalan untuk pribadi, keluarga , organisasi dan perusahaan">
+    content="Driver Bali tour , menyediakan pakej promosi pelancongan hotel untuk individu, keluarga, organisasi dan syarikat">
 <meta property="og:image" content="{{asset('public/images/meta_bg.jpg')}}">
 
 <!-- Twitter -->
 <meta property="twitter:card" content="summary_large_image">
 <meta property="twitter:url" content="https://driverbalitour.com/">
-<meta property="twitter:title" content="Driver Bali Tour - Paket Wisata Bali">
+<meta property="twitter:title" content="Driver Bali Tour - Pakej Wisata Bali">
 <meta property="twitter:description"
-    content="Driver Bali tour , menyediakan paket promo wisata hotel jalan-jalan untuk pribadi, keluarga , organisasi dan perusahaan">
+    content="Driver Bali tour , menyediakan pakej promosi pelancongan hotel untuk individu, keluarga, organisasi dan syarikat">
 <meta property="twitter:image" content="{{asset('public/images/meta_bg.jpg')}}">
 @endpush
 @section('content')

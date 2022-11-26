@@ -1,20 +1,20 @@
 @extends('pages.template.master')
 @push('meta_tags')
 <meta name="title" content="Driver Bali Tour - {{$post->judul}}">
-<meta name="description" content="Driver Bali tour , menyediakan paket promo wisata hotel jalan-jalan untuk pribadi, keluarga , organisasi dan perusahaan">
+<meta name="description" content="Driver Bali tour , menyediakan pakej promosi pelancongan hotel untuk individu, keluarga, organisasi dan syarikat">
 
 <!-- Open Graph / Facebook -->
 <meta property="og:type" content="website">
 <meta property="og:url" content="{{url('details/'.str_replace(' ', '-', $post->judul).'/'.$post->id)}}">
 <meta property="og:title" content="Driver Bali Tour - {{$post->judul}}">
-<meta property="og:description" content="Driver Bali tour , menyediakan paket promo wisata hotel jalan-jalan untuk pribadi, keluarga , organisasi dan perusahaan">
+<meta property="og:description" content="Driver Bali tour , menyediakan pakej promosi pelancongan hotel untuk individu, keluarga, organisasi dan syarikat">
 <meta property="og:image" content="{{asset('public/images/thumnail/'.$post->thumnail)}}">
 
 <!-- Twitter -->
 <meta property="twitter:card" content="summary_large_image">
 <meta property="twitter:url" content="{{url('details/'.str_replace(' ', '-', $post->judul).'/'.$post->id)}}">
 <meta property="twitter:title" content="Driver Bali Tour - {{$post->judul}}">
-<meta property="twitter:description" content="Driver Bali tour , menyediakan paket promo wisata hotel jalan-jalan untuk pribadi, keluarga , organisasi dan perusahaan">
+<meta property="twitter:description" content="Driver Bali tour , menyediakan pakej promosi pelancongan hotel untuk individu, keluarga, organisasi dan syarikat">
 <meta property="twitter:image" content="{{asset('public/images/thumnail/'.$post->thumnail)}}">
 @endpush
 @push('css')
