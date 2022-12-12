@@ -44,20 +44,18 @@
         <div class="row d-flex">
             <div class="col-md-6 d-flex">
                 <div class="img d-flex align-self-stretch"
-                    style="background-image:url({{asset('public/images/bg_profil.jpg')}});"></div>
+                    style="background-image:url({{asset('public/images/DRIVER_BALI_PROFIL.jpeg')}});"></div>
             </div>
             <div class="col-md-6 pl-md-5 py-5">
                 <div class="row justify-content-start pb-3">
                     <div class="col-md-12 heading-section ftco-animate">
-                        <h2 class="mb-4">ALFIAN GROUP TOUR TRAVEL (Driver Bali Tour)</h2>
+                        <h2 class="mb-4">Holis (Driver Bali Tour)</h2>
                         <p>
-                            ALFIAN GROUP TOUR TRAVEL
-                            VOUCHER HOTEL
-                            PRIVATE TOUR
-                            PACKAGE BALI
-                            PACKAGE NUSA PENIDA
-                            TRANSPORT BALI
-                            Voucher
+                            HOLIS TOUR TRAVEL
+                            Sewa mobil murah
+                            Paket honeymoon
+                            Paket keluarga
+                            Paket grub
                         </p>
                     </div>
                 </div>
